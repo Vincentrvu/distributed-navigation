@@ -10,13 +10,17 @@ body {
   font-size: 1.125rem;
   font-family: sans-serif;
   line-height: 1.5;
-  margin: .5rem;
+  padding: 0;
+  margin: 0;
 }
 
 header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  margin: 0;
+  padding: 1rem;
+  background-color: #e2e2e2;
 }
 
 header p {
@@ -24,17 +28,21 @@ header p {
 }
 
 nav ul {
-  display: flex;
-  justify-content: space-around;
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
 }
 
 nav a,
 nav a:visited {
   text-decoration: none;
+  color: #0074d9;
+  padding: .75em 1em .6em;
 }
 
 img {
   width: 2rem;
   order: -1;
+  margin-right: .5rem;
 }
