@@ -23,6 +23,10 @@ header {
   background-color: #e2e2e2;
 }
 
+header h1 {
+  margin: 0;
+}
+
 header p {
   margin: 0 auto;
 }
@@ -41,7 +45,11 @@ nav a:visited {
   padding: .75em 1em .6em;
 }
 
-img {
+nav a:hover {
+
+}
+
+header img {
   width: 2rem;
   order: -1;
   margin-right: .5rem;
