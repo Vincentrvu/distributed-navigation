@@ -1,0 +1,40 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 1.125rem;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: .5rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+header p {
+  margin: 0 auto;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+}
+
+nav a,
+nav a:visited {
+  text-decoration: none;
+}
+
+img {
+  width: 2rem;
+  order: -1;
+}
